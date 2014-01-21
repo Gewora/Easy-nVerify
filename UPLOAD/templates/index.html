@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Redeem a purchase code</title>
+    <link rel="stylesheet" type="text/css" href="templates/css/view.css" media="all">
+    <script type="text/javascript" src="templates/js/view.js"></script>
+</head>
+<body id="main_body" >
+
+<img id="top" src="templates/img/top.png" alt="">
+<div id="form_container">
+
+    <h1>&nbsp;</h1>
+    <form class="appnitro" method="post" action="index.php">
+        <div class="form_description">
+            <h2>Redeem a purchase code</h2>
+            <p>To get access to the support forums please redeem your purchase code below.</p>
+        </div>
+        <ul >
+
+            <li id="li_1" >
+                <label class="description" for="purchase_code">Please type in your purchase code </label>
+                <div>
+                    <input id="purchase_code" name="purchase_code" class="element text medium" type="text" maxlength="255" placeholder="Your Purchase Code" required="required"/>
+                </div><p class="guidelines" id="guide_1"><small>To find your purchase code go to your <strong>download area</strong>, <strong>press</strong> the <strong>"Download"</strong> button and <strong>select "License certificate & purchase code"</strong>.
+                <br/>
+                You will find your purchase code in the downloaded file.</small></p>
+            </li>
+
+            <li class="buttons">
+                <input id="saveForm" class="button_text" type="submit" name="submit" value="Redeem" />
+            </li>
+        </ul>
+    </form>
+    <div id="footer">
+        Powered by <a href="http://gewora.net/easy-nverify/" target="_blank">Gewora - Easy nVerify</a>
+    </div>
+</div>
+<img id="bottom" src="templates/img/bottom.png" alt="">
+</body>
+</html>
